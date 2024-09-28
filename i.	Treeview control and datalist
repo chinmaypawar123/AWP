@@ -52,9 +52,9 @@ protected void Button2_Click(object sender, EventArgs e)
 {
 {
 TreeNodeCollection T;
-T = TreeView3.CheckedNodes; DataList1.DataSource = T; DataList1.DataBind();
- 
-
+T = TreeView3.CheckedNodes;
+DataList1.DataSource = T;
+DataList1.DataBind();
 DataList1.Visible = true;
 }
 }
