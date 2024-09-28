@@ -24,6 +24,7 @@ for (counter = 2; counter < num; counter++)
 if (num % counter == 0)
 {
 result = 0; // Not a prime number if any divisor is found break; // No need to check further
+break;
 }
 }
 if (result == 0)
