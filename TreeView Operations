@@ -1,0 +1,34 @@
+WebForm1.apsx
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="prac3_a.WebForm1" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title></title>
+</head>
+<body>
+<form id="form1" runat="server">
+<div>
+<asp:DataList ID="DataList1" runat="server">
+<ItemTemplate>
+<%# Eval("text") %>>
+</ItemTemplate>
+</asp:DataList>
+<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+<asp:TreeView ID="TreeView3" runat="server" OnSelectedNodeChanged="TreeView3_SelectedNodeChanged" OnTreeNodeCollapsed="TreeView3_TreeNodeCollapsed"> //Just Changed this “OnTreeNodeCollapsed”
+<Nodes>
+<asp:TreeNode Text="Bcom" Value="Bcom" Checked="True" ShowCheckBox="True">
+<asp:TreeNode Text="FyBcom" Value="FyBcom" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+<asp:TreeNode Text="SyBcom" Value="SyBcom" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+<asp:TreeNode Text="TyBcom" Value="TyBcom" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+</asp:TreeNode>
+<asp:TreeNode Text="Bscit" Value="Bscit" Checked="True" ShowCheckBox="True">
+<asp:TreeNode Text="Fybscit" Value="Fybscit" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+<asp:TreeNode Text="SyBscit" Value="SyBscit" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+<asp:TreeNode Text="TyBscit" Value="TyBscit" Checked="True" ShowCheckBox="True"></asp:TreeNode>
+</asp:TreeNode>
+</Nodes>
+</asp:TreeView>
+</div>
+</form>
+</body>
+</html>
