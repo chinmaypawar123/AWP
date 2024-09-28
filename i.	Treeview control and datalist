@@ -30,6 +30,13 @@ Webform1.aspx
 </Nodes>
 </asp:TreeView>
 </div>
+<asp:DataList ID="DataList1" runat="server">
+            <ItemTemplate>
+                <%# Eval("text") %>>
+            </ItemTemplate>
+        </asp:DataList>
+         <br />
+        <asp:Button ID="Button1" runat="server" Text="Button" />
 </form>
 </body>
 </html> 
@@ -52,7 +59,7 @@ protected void Button2_Click(object sender, EventArgs e)
 {
 {
 TreeNodeCollection T;
-T = TreeView3.CheckedNodes;
+T = TreeView1.CheckedNodes;
 DataList1.DataSource = T;
 DataList1.DataBind();
 DataList1.Visible = true;
