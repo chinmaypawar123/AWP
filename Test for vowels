@@ -5,7 +5,9 @@ class Program
 static void Main(string[] args)
 {
 char ch;
-Console.Write("Enter a character: "); ch = (char)Console.Read(); switch(ch)
+Console.Write("Enter a character: "); 
+ch = (char)Console.Read(); 
+switch(ch)
 {
 case 'a':
 case 'A':
@@ -17,6 +19,12 @@ case 'o':
 case 'O':
 case 'u':
 case 'U':
-Console.WriteLine("The character is a vowel."); break;
+Console.WriteLine("The character is a vowel.");
+break;
 default:
-Console.WriteLine("The character is not a vowel."); break; }}}}
+Console.WriteLine("The character is not a vowel."); 
+break;
+}
+}
+}
+}
