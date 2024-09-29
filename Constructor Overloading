@@ -19,6 +19,7 @@ public void showdata()
 {
 Console.WriteLine("Basic salary : " + basic); Console.WriteLine("Dearness allowence : " + da); Console.WriteLine("Housing rent allowence : " + hra); Console.WriteLine("Travelling allowence : " + ta); Console.WriteLine("Gross Salary : " + (basic + da + hra + ta));
 } } }
+Console.ReadLine();
 
 Program.cs
 using System;
