@@ -1,40 +1,18 @@
-XML File
-
 <?xml version="1.0" encoding="utf-8" ?>
 <Advertisements>
-<Ad>
-<ImageUrl>~/Images/rk.jpg</ImageUrl>
-<Navigateurl></Navigateurl>
-<AlternateText> Radha</AlternateText>
-<Impressions>50</Impressions>
-<Keyword>Radha</Keyword>
-</Ad>
-<Ad>
-<ImageUrl>~/Images/madhav.jpg</ImageUrl>
-<Navigateurl></Navigateurl>
-<AlternateText> madhav</AlternateText>
-<Impressions>50</Impressions>
-<Keyword>Madhav</Keyword>
-</Ad>
-<Ad>
-<ImageUrl>~/Images/ganesha.jpg</ImageUrl>
-<Navigateurl></Navigateurl>
-<AlternateText> madhav</AlternateText>
-<Impressions>50</Impressions>
-<Keyword>Madhav</Keyword>
-</Ad>
-<Ad>
-<ImageUrl>~/Images/mahadev.jpg</ImageUrl>
-<Navigateurl></Navigateurl>
-<AlternateText> madhav</AlternateText>
-<Impressions>50</Impressions>
-<Keyword>Madhav</Keyword>
-</Ad>
-<Ad>
-<ImageUrl>~/Images/madhav.jpg</ImageUrl>
-<Navigateurl></Navigateurl>
-<AlternateText> madhav</AlternateText>
-<Impressions>50</Impressions>
-<Keyword>Madhav</Keyword>
-</Ad>
+	<Ad>
+		<ImageUrl>https://gratisography.com/wp-content/uploads/2024/03/gratisography-funflower-800x525.jpg</ImageUrl>
+		<Navigateurl>https://www.google.com</Navigateurl>
+		<AlternateText>Flower</AlternateText>
+		<Impressions>50</Impressions>
+		<Keywords>flower</Keywords>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://www.shutterstock.com/image-photo/calm-weather-on-sea-ocean-600nw-2212935531.jpg</ImageUrl>
+		<Navigateurl>https://www.google.com</Navigateurl>
+		<AlternateText>Nature</AlternateText>
+		<Impressions>50</Impressions>
+		<Keywords>nature</Keywords>
+	</Ad>
+
 </Advertisements>
