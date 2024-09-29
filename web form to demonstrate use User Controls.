@@ -38,12 +38,14 @@ TextBox2.Text = "heelo guest" + TextBox1.Text;
 }
 
 
-WebUserControl.ascx
+*WebUserControl.ascx* 
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="WebUserControl1.ascx.cs" Inherits="WebApplication5.WebUserControl1" %>
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-WebUserControl.ascx.cs
+
+
+*WebUserControl.ascx.cs*
 using System;
 using System.Collections.Generic;
 using System.Linq; using System.Web; using System.Web.UI;
