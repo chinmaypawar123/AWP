@@ -1,9 +1,9 @@
 TrafficSignal.cs
-
 using System;
 namespace TrafficDelegateExample
 {
-public delegate void TrafficDel(); class TrafficSignal
+public delegate void TrafficDel();
+class TrafficSignal
 {
 public static void Yellow()
 {
@@ -17,9 +17,12 @@ public static void Red()
 {
 Console.WriteLine("Red light signals to stop");
 }
-TrafficDel[] td = new TrafficDel[3]; public void IdentifySignal()
+TrafficDel[] td = new TrafficDel[3];
+public void IdentifySignal()
 {
-td[0] = new TrafficDel(Yellow); td[1] = new TrafficDel(Green); td[2] = new TrafficDel(Red);
+td[0] = new TrafficDel(Yellow);
+td[1] = new TrafficDel(Green);
+td[2] = new TrafficDel(Red);
 }
 public void display()
 {
@@ -29,7 +32,6 @@ td[2]();
 }
 } }
 
-
 Program.cs
 using System;
 namespace TrafficDelegateExample
@@ -38,7 +40,7 @@ class Program
 {
 static void Main(string[] args)
 {
-TrafficSignal ts = new TrafficSignal(); ts.IdentifySignal();
+TrafficSignal ts = new TrafficSignal();
+ts.IdentifySignal();
 ts.display();
 } } }
- 
