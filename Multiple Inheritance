@@ -1,4 +1,4 @@
-Gross.cs
+[1:34 am, 29/9/2024] Ansi Dubey: Gross.cs
 
 using System;
 namespace MultipleInheritance
@@ -39,7 +39,7 @@ Salary.cs
 using System;
 namespace MultipleInheritance
 {
-class Salary:employee,Gross
+class Salary:Employee,Gross
 {
 int hra;
 public Salary(string name, int hra):base(name)
@@ -76,3 +76,4 @@ Salary s = new Salary("Prachit", 35000); s.da = 20000;
 s.ta = 30000;
 s.dispSal();
 } } }
+// yeh code dal multiple inheritance ke liye
