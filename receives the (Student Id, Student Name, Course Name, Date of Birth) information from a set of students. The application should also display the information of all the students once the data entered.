@@ -6,7 +6,7 @@ class Program
 struct Student
 {
 public string studid, name, cname; 
-public int day, month, year;1
+public int day, month, year;
 }
 static void Main(string[] args)
 {
