@@ -19,7 +19,7 @@ Master1.master
 </html>
 
 
-WebForm1.aspx
+WebForm1.aspx (web form with master page)
 <%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="prac5b.WebForm1" Theme ="Skin1"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -32,7 +32,7 @@ NavigateUrl="~/WebForm2.aspx">Next</asp:HyperLink>
 </asp:Content>
 
 
-WebForm2.aspx
+WebForm2.aspx //(web form with master page)
 <%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="prac5b.WebForm2" Theme="Skin1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -45,6 +45,7 @@ WebForm2.aspx
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 </p>
 </asp:Content>
+
 Skin1.skin
 <asp:Label runat="server" SkinId="lbl" backcolor="blue"/>
 
