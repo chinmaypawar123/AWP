@@ -1,4 +1,5 @@
-[1:34 am, 29/9/2024] Ansi Dubey: Gross.cs
+
+Gross.cs
 
 using System;
 namespace MultipleInheritance
@@ -61,7 +62,9 @@ gSal = hra + ta + da + BasicSal(15000); return gSal;
 public void dispSal()
 { base.ShowData();
 Console.WriteLine("Gross Sal : " + GrossSal());
+Console.ReadLine();
 } } }
+
 
 Program.cs
 
@@ -76,4 +79,4 @@ Salary s = new Salary("Prachit", 35000); s.da = 20000;
 s.ta = 30000;
 s.dispSal();
 } } }
-// yeh code dal multiple inheritance ke liye
+
