@@ -1,4 +1,5 @@
 using System;
+using System.Threading; // Required for using Thread.Sleep()
 
 class PrimeCheck
 {
@@ -10,9 +11,14 @@ class PrimeCheck
         Console.WriteLine("Enter Number:");
         num = int.Parse(Console.ReadLine());
 
+        // Adding delay before processing
+        Thread.Sleep(2000);  // 2 seconds delay
+
         if (num == 1)
         {
-            Console.WriteLine(num + " is neither prime nor composite");
+            // Adding delay before the output
+            Thread.Sleep(2000);  // 2 seconds delay
+            Console.WriteLine(num + " is neither prime nor composite.");
         }
         else
         {
@@ -25,6 +31,9 @@ class PrimeCheck
                 }
             }
 
+            // Adding delay before the result output
+            Thread.Sleep(2000);  // 2 seconds delay
+
             if (isPrime)
             {
                 Console.WriteLine(num + " is a prime number.");
@@ -32,8 +41,10 @@ class PrimeCheck
             else
             {
                 Console.WriteLine(num + " is not a prime number.");
-                Console.ReadLine();
             }
         }
+
+        // Adding delay after the output
+        Thread.Sleep(2000);  // 2 seconds delay
     }
 }
