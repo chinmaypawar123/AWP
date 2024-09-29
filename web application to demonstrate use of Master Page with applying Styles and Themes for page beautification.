@@ -19,7 +19,7 @@ Master1.master
 </html>
 
 
-WebForm1.aspx (web form with master page)
+WebForm1.aspx //(web form with master page)
 <%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="prac5b.WebForm1" Theme ="Skin1"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
