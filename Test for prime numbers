@@ -32,6 +32,7 @@ class PrimeCheck
             else
             {
                 Console.WriteLine(num + " is not a prime number.");
+                Console.ReadLine();
             }
         }
     }
